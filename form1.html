@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+
+
+    </head>
+    <body >
+        <form name="kayit" action="kayit.aspx" method="get">
+            Ad Soyad:
+            <input type="text" size="40" name="adsoyad"><br>
+            Doğum Yeri:
+            <input type="text" size="30" name="dyeri" maxlength="30"><br>
+            <br>
+            Cinsiyet:
+            <input type="radio" name="cins" value="erkek">Erkek
+            <input type="radio" name="cins" value="kadin">Kadın
+            <br>
+            Yabancı Dil:<br>
+            <input type="checkbox" name="ing">İngilizce<br>
+            <input type="checkbox" name="arp">Arapça<br>
+            <input type="checkbox" name="frs">Fransızca<br>
+            <br>
+            <textarea rows="5" cols="30">Görüşlerinizi girin...</textarea>
+            <br>
+            Öğrenim Düzeyiniz:
+            <select name="ogrduzeyi">
+                <option>Orta Okul</option>
+                <option>Lise</option>
+                <option >Üniversite</option>
+            </select>
+            <br><br>
+            <input type="button" name="button" value="Kaydet">
+            <input type="submit" name="onayla" value="Verileri Gönder">
+            <input type="reset" name="resetle" value="Girişleri Sil">
+            
+        </form>
+
+
+    </body>
+
+
+</html>
